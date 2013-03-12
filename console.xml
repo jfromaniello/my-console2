@@ -91,7 +91,7 @@
 	</mouse>
 	<tabs>
 		<tab title="Powershell" icon="C:\Program Files (x86)\Console2\icos\powershell.ico" use_default_icon="0">
-			<console shell="%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe" init_dir="" run_as_user="0" user=""/>
+			<console shell="%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="38" b="140">
 				<image file="" relative="0" extend="0" position="0">
@@ -100,7 +100,7 @@
 			</background>
 		</tab>
 		<tab title="CMD" icon="C:\Program Files (x86)\Console2\icos\cmd.ico" use_default_icon="0">
-			<console shell="" init_dir="" run_as_user="0" user=""/>
+			<console shell="" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -109,7 +109,7 @@
 			</background>
 		</tab>
 		<tab title="node" icon="C:\Program Files (x86)\Console2\icos\node.ico" use_default_icon="0">
-			<console shell="%comspec% /c &quot;C:\Program Files\nodejs\node.exe&quot;" init_dir="" run_as_user="0" user=""/>
+			<console shell="%comspec% /c &quot;C:\Program Files\nodejs\node.exe&quot;" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="48" g="55" b="47">
 				<image file="" relative="0" extend="0" position="0">
@@ -118,7 +118,7 @@
 			</background>
 		</tab>
 		<tab title="ruby-irb" icon="C:\Program Files (x86)\Console2\icos\ruby.ico" use_default_icon="0">
-			<console shell="%comspec% /c &quot;irb.bat&quot;" init_dir="" run_as_user="0" user=""/>
+			<console shell="%comspec% /c &quot;irb.bat&quot;" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -127,7 +127,7 @@
 			</background>
 		</tab>
 		<tab title="VS 10.0" icon="C:\Program Files (x86)\Console2\icos\vs.ico" use_default_icon="0">
-			<console shell="%comspec% /k &quot;&quot;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\vcvarsall.bat&quot;&quot; x86" init_dir="" run_as_user="0" user=""/>
+			<console shell="%comspec% /k &quot;&quot;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\vcvarsall.bat&quot;&quot; x86" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -136,7 +136,7 @@
 			</background>
 		</tab>
 		<tab title="python" icon="C:\Program Files (x86)\Console2\icos\python.ico" use_default_icon="0">
-			<console shell="%comspec% /c &quot;c:\Python27\python.exe&quot;" init_dir="" run_as_user="0" user=""/>
+			<console shell="%comspec% /c &quot;c:\Python27\python.exe&quot;" init_dir="%USERPROFILE%" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
